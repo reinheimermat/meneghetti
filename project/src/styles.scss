@@ -1,3 +1,6 @@
+$azul-claro: #0088CD;
+$dourado: #FFC245;
+
 .card {
     overflow: hidden;
     position: relative;
@@ -7,4 +10,31 @@
 .card:hover {
     scale: 1.1;
     transition: 0.3s;
+}
+
+#cards {
+    overflow: hidden;
+    position: relative;
+    transform: 0.3s;
+}
+
+#cards:hover  {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+#sobre {
+    display: none;
+}
+
+#experiencia {
+    display: none;
+}
+
+#contato {
+    display: none;
+}
+
+footer {
+    display: none;
 }

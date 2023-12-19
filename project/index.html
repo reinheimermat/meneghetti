@@ -75,6 +75,8 @@
           </div>
         </div>
       </nav>
+
+      <!-- * Carousel -->
       <section>
         <div
           id="carouselExampleCaptions"
@@ -107,21 +109,21 @@
             <div class="carousel-item active">
               <img
                 src="./src/assets/banner1.png"
-                class="d-block w-100"
+                class="d-block"
                 alt="Banner do carousel"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="./src/assets/banner2.png"
-                class="d-block w-100"
+                class="d-block"
                 alt="Banner do carousel"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="./src/assets/banner3.png"
-                class="d-block w-100"
+                class="d-block"
                 alt="Banner do carousel"
               />
             </div>
@@ -151,7 +153,7 @@
     <!-- * Main -->
     <main class="container">
       <!-- * Serviços -->
-      <section class="row mx-auto g-4">
+      <section class="row mx-auto g-4 pt-5" id="cards">
         <!-- Card 1 -->
         <article class="col-6 col-md-4 col-xl-2">
           <aside class="card rounded-0 border-0">
@@ -482,10 +484,10 @@
       </section>
 
       <!-- * Sobre -->
-      <section class="pb-5" id="sobre">
-        <h2 class="text-center py-4">Sobre</h2>
+      <section class="py-5" id="sobre">
+        <h2 class="text-center pb-3 fs-1">Sobre</h2>
 
-        <article class="container row mx-auto align-items-center">
+        <article class="row mx-auto align-items-center">
           <article class="col-12 col-md-6">
             <aside>
               <img
@@ -495,7 +497,7 @@
               />
             </aside>
           </article>
-          <article class="col-12 col-md-6">
+          <article class="col-12 col-md-6 pt-3">
             <h2>Sobre a empresa</h2>
             <p>
               A <strong>Refrigeração Meneghetti</strong> é uma empresa
@@ -508,10 +510,10 @@
             <p>
               <strong>Há mais de 10 anos no mercado</strong>, oferecemos um
               serviço de <strong>qualidade</strong>, com profissionais
-              qualificados e experientes, que garantem a{" "}
+              qualificados e experientes, que garantem a
               <strong>satisfação</strong> dos nossos clientes. Além de
               trabalharmos somente com peças <strong>originais</strong>, que
-              asseguram a{" "} <strong>durabilidade</strong> e o bom
+              asseguram a <strong>durabilidade</strong> e o bom
               funcionamento dos seus aparelhos.
             </p>
             <a class="btn btn-success" href="#">WhatsApp</a>
@@ -520,15 +522,131 @@
       </section>
 
       <!-- * Experiência -->
-      <section class="min-vh-100 d-flex" id="experiencia">
-        <article class="m-auto py-4 text-light">
-          <aside class="">
-            
+      <section class="pb-5" id="experiencia">
+        <article>
+          <h1 class="text-center pb-3 py-md-5 fs-1 fw-bold">Experiência</h1>
+          <aside class="row mx-auto">
+            <aside class="col-12 col-md-8 rounded-4 my-auto">
+              <p class="fs-5">
+                Possuimos uma equipe <strong>qualificada</strong> e
+                <strong>experiente</strong> em instalação, conserto e manutenção de
+                equipamentos de refrigeração.
+              </p>
+              <p class="fs-5">
+                Trabalhamos com as melhores marcas e peças de reposição originais
+                para cada tipo de aparelho, garantindo a qualidade e a durabilidade
+                dos seus serviços!
+              </p>
+  
+              <div class="icones row gap-3">
+                <div class="col-12 col-md-12 col-xl-4 d-flex align-items-center gap-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#FFC245" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                  </svg>
+                  <div>
+                    <h2 class="m-0 fs-5">Qualificação</h2>
+                    <p class="m-0">Empresa consolidada no mercado!</p>
+                  </div>
+                </div>
+                <hr>
+  
+                <div class="col-12 col-md-12 col-xl-4 d-flex align-items-center gap-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#FFC245" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                  </svg>
+                  <div>
+                    <h2 class="m-0 fs-5">Agilidade</h2>
+                    <p class="m-0">Agilidade na manutenção e entrega do seu pedido!</p>
+                  </div>
+                </div>
+                <hr>
+  
+                <div class="col-12 col-md-12 col-xl-4 d-flex align-items-center gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#FFC245" class="bi bi-person-check-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                    <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                  </svg>
+                  <div>
+                    <h2 class="m-0 fs-5">A mais de 10 anos</h2>
+                    <p class="m-0">Experiência com diversas marcas e modelos!</p>
+                  </div>
+                </div>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4">
+              <img
+                class="img-fluid border"
+                src="./src/assets/caminhonete.jpg"
+                alt="Imagem da caminhonete da empresa."
+              />
+            </aside>
+          </aside>
+        </article>
+      </section>
+
+      <!-- * Contato -->
+      <section id="contato">
+        <h1 class="text-center fw-bold fs-1 pb-3">Contato</h1>
+        <article class="row pb-4">
+          <aside class="col-12 col-xl-6 d-flex flex-column m-auto align-items-center d-md-align-items-start">
+            <h2 class="pb-3">Horário de atendimento:</h2>
+            <h5>Segunda à Sexta</h5>
+            <div class="contato-linha"></div>
+            <p class="pt-3 d-flex align-items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0088CD" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+              </svg>
+              <strong>08:30 - 18:30</strong>
+            </p>
+            <h5>Sábado</h5>
+            <div></div>
+            <p class="pt-3 d-flex align-items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0088CD" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+              </svg>
+              <strong>08:00 - 11:30</strong>
+            </p>
+            <div></div>
+            <p class="pt-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0088CD" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
+              Avenida Henrique Bier 2645
+            </p>
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0088CD" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+              </svg>
+              (51) 3566-2539
+            </p>
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0088CD" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+              </svg>
+              <a href="mailto:refrigeracaomeneghetti@gmail">refrigeracaomeneghetti@gmail</a>
+            </p>
+          </aside>
+          <aside class="col-12 col-xl-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.4744177768407!2d-51.17371652497946!3d-29.734980116994027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95194314cbe80517%3A0xf0f9656a610b6af8!2sRefrigera%C3%A7%C3%A3o%20Meneghetti!5e0!3m2!1spt-BR!2sbr!4v1699073368432!5m2!1spt-BR!2sbr"
+              style="border: 0; height: 55vh; width: 100%"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </aside>
         </article>
       </section>
     </main>
 
+    <!-- * Footer -->
+    <footer class="footer bg-black text-light text-center p-0">
+      <p class="m-0 py-3">
+        2023 &copy; <strong>Refrigeração Meneghetti</strong> - todos os direitos
+        reservados
+      </p>
+    </footer>
+    
+    <!-- * Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
